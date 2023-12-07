@@ -1,0 +1,27 @@
+Flask 1
+
+1.
+Flask is a lightweight and extensible web framework for Python. 
+It is designed to be simple and easy to use while providing the flexibility to build complex web applications. 
+Advantages:
+Flexible
+simple
+lightweight
+easy
+
+
+3.
+
+App routing in Flask refers to defining URL patterns and associating them with specific functions (view functions) in your Flask application. This is done using the @app.route decorator. 
+App routes define how the application responds to different URLs.
+Why do we use app routes:
+URL Mapping: App routes allow you to map URLs to specific functions in your code. 
+Modularity: App routing promotes a modular approach to building web applications.
+Readability: By using decorators like @app.route, the code becomes more readable
+
+5.
+The function used in Flask for URL building is url_for()
+
+
+
+Sorry i am not able to show the Output of my code 
