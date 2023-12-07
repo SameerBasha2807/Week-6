@@ -1,0 +1,32 @@
+Flask 2
+1.
+
+GET:  Sending data through the url. It is a request method used to retrieve data from a specified resource. When you use a web browser to access a website, you are typically making a GET request to the server to retrieve the requested web page or data. The data is appended to the URL, and it is visible in the browser's address bar.
+
+POST: Sending data through body. It is a request method used to submit data to be processed to a specified resource. Unlike GET requests, POST requests send data in the request body, which makes it suitable for sending sensitive or large amounts of data. Data is not appended to the URL, making it more secure than GET for sensitive information.
+
+2.
+
+
+Request is a global object in Flask that allows to access the incoming request data, 
+such as form data, query parameters, and files uploaded with the request. 
+It provides a simple interface to interact with the data sent by the client to the server.
+it is used get request to get data from the form, URL parameters, or request headers
+
+3.
+
+The redirect() function in Flask is used to redirect the client to a different URL.
+ It is commonly used after processing a form submission or completing an operation to redirect the user to a different page.
+ This helps in maintaining a clean and organized flow of navigation in a web application
+
+4.
+
+Templates in Flask are used to separate the presentation layer from the business logic in web applications. 
+They allow you to define the HTML structure with placeholders for dynamic data. 
+The render_template() function in Flask is used to render these templates and send the output as an HTTP response.
+The render_template() function takes the name of the template file and any variables needed for rendering. 
+It then processes the template, substitutes variables with their values, and returns the resulting HTML as the HTTP response. 
+This approach makes it easier to maintain and update the user interface without modifying the application logic.
+
+
+5.
